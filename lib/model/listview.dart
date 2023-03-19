@@ -1,37 +1,45 @@
 class ItemsModel {
   final String img;
-  final String text;
+  final String title;
+  final String subtitle;
 
-  ItemsModel({required this.text, required this.img});
+  ItemsModel({required this.title, required this.img, required this.subtitle});
 }
 
 List items = [
   ItemsModel(
-    text: 'egypt',
+    title: 'egypt',
+    subtitle: 'egypt',
     img: 'assets/images/1.jpg',
   ),
   ItemsModel(
-    text: 'paris',
-    img: 'assets/images/2.jpg',
+    title: 'paris',
+    subtitle: 'paris',
+    img: 'assets/images/7.jpeg',
   ),
   ItemsModel(
-    text: 'susira',
+    title: 'susira',
+    subtitle: 'susira',
     img: 'assets/images/3.jpeg',
   ),
   ItemsModel(
-    text: 'egypt',
-    img: 'assets/images/4.jpg',
+    title: 'egypt',
+    subtitle: 'egypt',
+    img: 'assets/images/1.jpg',
   ),
   ItemsModel(
-    text: 'india',
+    title: 'india',
+    subtitle: 'india',
     img: 'assets/images/5.webp',
   ),
   ItemsModel(
-    text: 'paris',
+    title: 'paris',
+    subtitle: 'paris',
     img: 'assets/images/6jpg.jpg',
   ),
   ItemsModel(
-    text: 'suisra',
+    title: 'suisra',
+    subtitle: 'suisra',
     img: 'assets/images/7.jpeg',
   ),
 ];
